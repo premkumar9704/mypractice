@@ -1,0 +1,29 @@
+#!/bin/bash
+
+read -p "enter your number (1-3): " num
+
+case $num in
+
+     1)
+
+      echo "you are graduate student"
+     ;;
+
+     2)
+  
+      echo "you are udergraduate student"
+
+     ;;
+
+     3)
+      
+     echo "you are high school student"
+
+     ;;
+
+     *)
+
+     echo "you are primary student"
+     ;;
+
+esac
